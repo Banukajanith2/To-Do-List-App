@@ -27,6 +27,7 @@ function addToList() {
 
     task.value = ""; //clear input fields
     dateInput.value = "";
+    timeInput.value = "";
   } else {
     Swal.fire({
       title: '!!!',
