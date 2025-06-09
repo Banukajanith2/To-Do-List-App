@@ -24,7 +24,7 @@ This is a lightweight and beginner-friendly To-Do List web application built usi
 ## 🧠 How It Works
 
 - Tasks are stored in an in-memory array (`taskArray`)
-- Then it's stored in localStorage for persistence
+- Then it's stored in `localStorage` for persistence
 - When you add a task, it is pushed to the top of the list
 - The UI updates by re-rendering the array with each change
 - The delete button removes the task from the array using `splice()` and refreshes the display
