@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Simple To Do List App by Banuka Janith.">
+    <meta author="Banuka Janith Waduge">
+    <meta name="keywords" content="To Do List App, Banuka Janith">
+    <link href="img/favicon.png" rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>TO-DO List App</title>
+  </head>
+  <body>
+    <div class="fade-in"></div>
+    <div class="main">
+      <div class="top">
+        <h1 class="top-txt">To Do List.</h1>
+        <div class="middle">
+          <input class="txt" id="text-input" placeholder="Task Name" />
+          <input class="dt" id="date-input" type="date" />
+          <input class="time" id="time-input" type="time" />
+          <button class="btn" onclick="addToList()">+</button>
+        </div>
+      </div>
+
+      <div id="js-text-div" class="tasks"></div>
+    </div>
+    <p class="footer-txt">
+      By
+      <a
+        class="footer-link"
+        target="_blank"
+        href="https://github.com/Banukajanith2"
+        >Banuka Janith</a
+      >
+    </p>
+    <script>
+      window.onload = function() {
+          setTimeout(() => {
+            document.querySelector('.fade-in').classList.add('loaded');
+          }, 2000);
+      };
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
