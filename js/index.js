@@ -54,7 +54,7 @@ function updateArray() {
     const time = ArrayObj.time; // Get the time of the current item
     const html = `
           <div class="block">
-            <p class="task1">🔸 ${name}</p>
+            <p class="task1">• ${name}</p>
             <div class="date-time1">
               <p class="date1">${date}</p>
               <p class="time1">${time}</p>
